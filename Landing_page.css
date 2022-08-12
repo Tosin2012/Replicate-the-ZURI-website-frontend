@@ -1,5 +1,10 @@
-@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
-
+/*@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');*/
+@font-face {
+    font-family: 'Averta-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src:url('https://fonts.cdnfonts.com/s/14933/Averta.woff') format('woff');
+}
 html , body {
     background-color:white;
     width:100%;
@@ -7,13 +12,16 @@ html , body {
     box-sizing:border-box;
     margin:0;
     padding:0;
-    font-family:averta-blackitalic, Arial, Helvetica, sans-serif
-    font-size:16px;
+    font-family:Averta-Regular, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-stretch:expanded;
+    color:rgb(102, 101, 101)
 }
 #maindiv{
     background-color:rgb(248, 242, 243);
     padding:5%;
     min-width:100%;
+    min-height:40%;
 }
 
 #zurilogo {
@@ -25,11 +33,12 @@ html , body {
     margin-left:38%;
     margin-top:3%;
     margin-bottom: 3%;
+    font-weight:bolder;
 }
 #pcontent{
-    font-size:20px;
+    font-size:16px;
     align-content:center;
-    max-width:57%;
+    max-width:60%;
     padding-left:23%;
     word-spacing:5px;
     justify-content:center
@@ -52,15 +61,16 @@ p {
     color:white;
     padding:1%;
     margin:2%;
-    max-width:40%;
+    max-width:42%;
     cursor:pointer;
-    font-size:16px
+    font-size:16px;
+    border:small;
 }
 #btn2{
     color:red;
     padding:1%;
     margin:2%;
-    max-width:48%;
+    max-width:44%;
     cursor:pointer;
     font-size:16px
 }
@@ -77,45 +87,74 @@ p {
     color:red;
     justify-items:center;
     position:relative;
-    left:47%;
-    padding-top:30px
+    left:46%;
+    padding-top:30px;
+    font-size:14px
 }
 #pcontent3{
     position:relative;
-    left:43%;
+    left:39%;
     max-width:25%;
     max-height:1%;
-    font-size:20px;
+    font-size:22px;
+    padding-right:30%;
+    word-spacing:5px;
+    justify-content:center
+}
+#pcontent4{
+    position:relative;
+    left:37%;
+    max-width:30%;
+    max-height:1%;
+    font-size:22px;
     padding-right:30%;
     word-spacing:5px;
     justify-content:center
 }
 #maindiv4{
     display:flex;
-    margin-left:4%;
+    margin-left:6%;
     margin-right:4%;
-    width:100%
+    width:100%;
+    background-image: url("right background design.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:right top;
+    background-size:contain
 }
 .zuridiv{
     background-color:rgb(248, 242, 243);
     margin:15px;
     padding:45px 45px 30px 30px;
     min-height:8%;
-    max-width:20%;
+    max-width:22%;
+}
+#zuridiv3{
+    background-color:rgb(248, 242, 243);
+    margin:15px;
+    padding:45px 45px 30px 30px;
+    min-height:8%;
+    max-width:22%;
     
 }
-.pcontent3{
+.pcontd{
     color:red;
     justify-content:center;
     position:relative;
     padding-top:30px;
-    font-size:18px;
+    font-size:15px;
     cursor:pointer;
 }
 .pdivcontent{
-    font-size:17px;
+    font-size:15px;
     align-content:center;
-    width:98%;
+    width:99%;
     word-spacing:5px;
     justify-content:center
+}
+#sect3div{
+    background-image: url("right background design.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:right top;
 }
