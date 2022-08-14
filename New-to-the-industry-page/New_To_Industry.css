@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Averta-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Averta-Regular'), url('https://fonts.cdnfonts.com/s/14933/Averta.woff') format('woff');
+}
+
+Body{
+    background-image:url("lady1.jpg");
+    background-repeat:no-repeat;
+    background-size:85vw 95vh;
+    background-position:cover;
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+    width:100vw;
+    height:100vh;
+    font-family:Averta-Regular ,Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.navdiv{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    margin-top:15px;
+}
+.navbar{
+    background-color:rgba(226, 216, 194, 0.582);
+    position:fixed;
+    top:0;
+    width:100%;
+    margin-bottom:55px;
+
+}
+.btndiv{
+    text-decoration:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+a{
+    margin:15px;
+    text-decoration:none;
+    color:black;
+}
+.thumbdiv{
+    border-radius:100%;
+    background-color:red;
+    padding:10px;
+    margin-left:-55px;
+    width:55px;
+    position:absolute;
+    cursor:pointer;
+}
+button{
+    background-color:red;
+    border-radius:20px;
+    padding:15px;
+    font-size:16px;
+    color:rgba(219, 211, 193, 0.76);
+    width:150px;
+    position:initial;
+    margin:5px;
+    border-style:none;
+    font-weight:bolder;
+    cursor:pointer
+}
+/* .ladydiv{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:80px
+} */
